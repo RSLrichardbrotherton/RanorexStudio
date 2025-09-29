@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{F084F2EA-F56C-4C98-905F-EE044C0FAF1F}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution BackOffice[Solution Items[]BackOffice[Reports[]]]]&#xD;&#xA;Solution BackOffice\BackOffice\_AEGIS.rxtst&#xD;&#xA;Solution BackOffice" />
+  <StartupProject value="{F084F2EA-F56C-4C98-905F-EE044C0FAF1F}" />
+</Properties>
