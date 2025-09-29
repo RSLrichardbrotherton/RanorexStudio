@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e58fcc39-cead-4d83-b297-cd3dc0ca42b4"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BackOffice_Close"
+	namespace="BackOffice">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="5000ms"
+		method="KillProcess"
+		optional="False"
+		searchpropertyid="c1d728cb-ce38-4891-8a40-75047bcb131d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="caa3c3ad-7fc6-453d-b4c8-aab07fd99cb5"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&gt;'backoffice']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="23c18cd1-a5f3-481c-8767-fe2dfb772075"
+	name="_BackOfficeRepository"
+	relativepath="_BackOfficeRepository.rxrep">
+		<codegen
+		classname="_BackOfficeRepository"
+		namespace="BackOffice">
+		</codegen>
+		<rootfolder
+		id="7ff8f337-aa43-48f9-b5ed-2640ff5cc94e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BackOffice_Close.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

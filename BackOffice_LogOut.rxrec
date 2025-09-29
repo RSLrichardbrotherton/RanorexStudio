@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a583ea15-650b-4ebd-88aa-e75d7cbced1b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BackOffice_LogOut"
+	namespace="BackOffice">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8372a936-bed2-40ef-9d8b-43a598cdb91d"
+		sx="1473"
+		sy="241"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1cf6717f-18cc-4c90-8ee5-c55bd8c53aff"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="atag"
+				rect="1391,233,165,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						UserMenuItem
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;                            System Administrator
+                            
+                           &#32;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						javascript:void(0);
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain&gt;'backoffice']//a[#'UserMenuItem']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5910797a-d0c1-4f20-b076-110a84ba2a62"
+		sx="1398"
+		sy="296"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dbe6ead6-f226-45b0-949d-11fd02bcbfd6"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1343,284,89,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						logoutButton
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;                                        Logout
+                                   &#32;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						javascript:void(0);
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain&gt;'backoffice']//a[#'logoutButton']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="4bd5e94e-d415-4c4e-b0f5-5eaf3361d939">
+				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
+UUUAFFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="36dedff2-b308-4323-87f2-a4f77909030c"
+		sx="1007"
+		sy="609"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7684af78-3847-4a5a-90fa-6692227abda4"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="buttontag"
+				rect="948,592,67,26"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ui-button ui-corner-all ui-widget
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Logout
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ui-button ui-corner-all ui-widget
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain&gt;'backoffice']//button[@innertext='Logout']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="26f9fd5d-7d60-42f9-b100-7d6d41fe8fe2">
+				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
+fav90flRtX+6PyoAsUVX2r/dH5UUAf/Z
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="edc087b4-8239-41e6-83f1-0c6cef4ace39"
+		waitaction="NotExists"
+		waittimeout="60000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cac4c031-4424-462c-a4bb-5b56bc87801a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="divtag"
+				rect="0,87,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain&gt;'backoffice']//div[#'DivPageBusyText']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="23c18cd1-a5f3-481c-8767-fe2dfb772075"
+	name="_BackOfficeRepository"
+	relativepath="_BackOfficeRepository.rxrep">
+		<codegen
+		classname="_BackOfficeRepository"
+		namespace="BackOffice">
+		</codegen>
+		<rootfolder
+		id="7ff8f337-aa43-48f9-b5ed-2640ff5cc94e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BackOffice_LogOut.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

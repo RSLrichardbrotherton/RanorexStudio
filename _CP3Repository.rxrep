@@ -1,0 +1,623 @@
+﻿<repository
+id="4cfc4cf0-f8a5-4adf-8b2e-a889906bc380"
+name="_CP3Repository">
+	<codegen
+	classname="_CP3Repository"
+	namespace="BackOffice">
+	</codegen>
+	<rootfolder
+	capname="host"
+	id="790a0019-a58d-4e89-837b-a4cad45a75b5"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="False">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="caa3c3ad-7fc6-453d-b4c8-aab07fd99cb5"
+		isrooted="True"
+		name="CP3"
+		refimgid="752bd7cd-cb37-4812-be44-3732eedf9924"
+		searchtimeout="2000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="cd36dd33-f0af-4449-8ebb-521bfebc4613"
+			name="InputEmail"
+			refimgid="092c13de-bd9d-487f-b6f2-52e9709cb0be"
+			robustPath="/dom[@domain>'cp3']//input[#'inputEmail']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//input[#'inputEmail']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="fefad905-fd20-4b1a-a511-f294dc6932df"
+			name="InputPassword"
+			refimgid="e7add8a5-6abe-4349-ad2e-4b0a37e8ec84"
+			robustPath="/dom[@domain>'cp3']//input[#'inputPassword']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//input[#'inputPassword']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="424351f7-3c54-4032-b58a-66b82bd578ca"
+			name="LoginButton"
+			refimgid="ceaee397-e4ec-44b6-be13-beaeb01d4d72"
+			robustPath="/dom[@domain>'cp3']//button[#'login-button']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//button[#'login-button']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="b28890b3-3fec-48c7-86df-2cf5483b4283"
+			name="FirstSlide"
+			refimgid="71a436c8-8f71-4e78-bc76-c0b1bfab1e20"
+			refpath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'home-carousel']/div/div[1]/img[@alt='First slide']"
+			robustPath="/dom[@domain~'cp3-usa-']//div[#'home-carousel']//img[@alt='First slide']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'home-carousel']//img[@alt='First slide']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="fd3a384a-5ea9-4c22-9fa7-fc3d039fdcc6"
+			name="Loading"
+			refimgid="a424684e-c640-4741-8b87-bd55de5359f4"
+			robustPath="/dom[@domain>'cp3']//div[#'loading']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'loading']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b7c6e47d-4766-48f6-a484-2a37054d8b1e"
+			name="Navbar_Activities"
+			refimgid="483380bd-b5ff-454c-8199-70af7bd5d082"
+			robustPath="/dom[@domain>'cp3']//div[#'navbarSupportedContent']//span[@innertext>'                        Activities']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'navbarSupportedContent']//span[@innertext~'Activities']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="d6c19f12-a5c8-4138-8647-17a72d966e5d"
+			name="MyActivities_ListItem"
+			refimgid="6281e425-e00c-4859-90a1-f5025cb90473"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'navbarSupportedContent']/ul[1]/li[5]/span/a[@innertext~'My Activities']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b912f7ff-76d5-43f5-ba48-897d82849470"
+			name="ManageActivities_ListItem"
+			refimgid="6281e425-e00c-4859-90a1-f5025cb90473"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'navbarSupportedContent']/ul[1]/li/?/span/a[@innertext~'Manage Activities']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="51400da9-871a-459c-9132-8eea7514792f"
+			name="Activities_ViewDetails_Btn_Row1"
+			refimgid="8bb2eff6-eac5-4a55-8624-e7ca42bbfbef"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'my-activities-container']//a[@innertext='View Details']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'my-activities-container']//a[@innertext='View Details']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9b192db1-4dcf-403d-a9c6-6b826d047aeb"
+			name="Activities_ViewSurvey_Btn_Row1"
+			refimgid="8bb2eff6-eac5-4a55-8624-e7ca42bbfbef"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'my-activities-container']//a[@innertext='View Details']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'my-activities-container']//a[@innertext='View Survey']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="divtag"
+			id="f75dedb0-cc8d-4cec-bba0-156b042d93a3"
+			name="Survey_Add_Btn"
+			refimgid="c4841623-af17-4bef-bed6-9b9a0b16fbf2"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'questionnaire-section']/div/div[2]/div/div[2]/div[2]/div/button[@title='']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'questionnaire-section']/div/div[2]/div/div[2]/div[2]/div
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="0f333eed-b17c-4b85-aef4-7070f145adc3"
+			name="Survey_Attachments_Btn"
+			refimgid="32cefaf8-cf46-4d21-98a7-197dd385b8bc"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'questionnaire-section']//span[@innertext='1']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'questionnaire-section']//span[@innertext='1']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="4b7e7df0-8c3e-4c31-8d9e-58d22e405ad3"
+			name="Survey_Add_RI"
+			refimgid="da4ea1c4-211c-4b78-8ca6-fdd6792ed4bd"
+			robustPath="/dom[@domain>'cp3']//div[#'question-add-ri']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'question-add-ri']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="50718d53-da0b-4b57-9b13-13c883a95ba9"
+			name="RI_Priority_Select"
+			refimgid="4ce3fc15-928e-420a-979d-a81b529fbbf8"
+			robustPath="/dom[@domain>'cp3']//div[#'ri-details-modal']//form/div/div[2]/div[1]/div/div[3]/div/div"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//form/div/div[2]/div[1]/div/div[3]/div/div
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="5ddd7b3d-96f9-4d71-8a66-f4fd360bcbea"
+			name="RI_Priority_High"
+			refimgid="806029af-8d8e-4019-acbb-58a30a143a44"
+			robustPath="/dom[@domain>'cp3']//div[#'ri-details-modal']//span[@innertext='High']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//span[@innertext='High']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="fd0e5f60-abbf-409a-aee8-e56b13d6a62a"
+			name="RI_Priority_Normal"
+			refimgid="806029af-8d8e-4019-acbb-58a30a143a44"
+			robustPath="/dom[@domain>'cp3']//div[#'ri-details-modal']//span[@innertext='High']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//span[@innertext='Normal']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d99c3434-d9ce-4ce1-9f70-fc0d90566ab4"
+			name="RI_Status_Select"
+			refimgid="d46264b3-a345-4841-b7e0-1260264105f3"
+			refpath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'ri-details-modal']/div/div/form[@action='https://cp3-usa-dev.risksolved.com/activity/questionnaire/05d63aa5-2be3-426b-9179-b16900ec589b?section=0#']/div/div[2]/div[1]/div/div[6]/div/div"
+			robustPath="/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//form/div/div[2]/div[1]/div/div[6]/div/div"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//form/div/div[2]/div[1]/div/div[6]/div/div
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="f84653ac-792a-415b-b02f-cfe28fc44097"
+			name="RI_Status_New"
+			refimgid="806029af-8d8e-4019-acbb-58a30a143a44"
+			robustPath="/dom[@domain>'cp3']//div[#'ri-details-modal']//span[@innertext='High']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//span[@innertext='New']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="16523fe2-8d24-4382-bdb2-9efd6dc1e7a7"
+			name="RI_Expenditure_Select_7"
+			refimgid="6476944f-fe0c-4f1f-8c14-7acccbfe2adf"
+			robustPath=""
+			searchtimeout="1000ms">
+				/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//form/div/div[2]/div[1]/div/div[7]/div/div
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="90b1cc3e-6ff4-4085-b7c0-1a4411b7cc9b"
+			name="RI_Expenditure_Select_8"
+			refimgid="6476944f-fe0c-4f1f-8c14-7acccbfe2adf"
+			robustPath=""
+			searchtimeout="1000ms">
+				/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//form/div/div[2]/div[1]/div/div[8]/div/div
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="1f876206-6c3f-4def-9568-ab31a6b755e5"
+			name="RI_Expenditure_CapitalExpenditure"
+			refimgid="806029af-8d8e-4019-acbb-58a30a143a44"
+			robustPath="/dom[@domain>'cp3']//div[#'ri-details-modal']//span[@innertext='High']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//span[@innertext='Capital Expenditure']
+			</item>
+			<item
+			addcaps="unknown,webelement,h5tag"
+			capname="h5tag"
+			id="9b914d22-d207-41ce-97a8-58d4979c843f"
+			name="EstimatedLoss"
+			refimgid="57818670-ed1b-41cb-a920-f48234e4eeff"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'RecommendationEditorWrapperComponent']//h5[@innertext='Estimated Loss']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="8633d79f-32f1-40b0-a9e4-fc3b9dd60a0a"
+			name="RI_Status_Closed"
+			refimgid="806029af-8d8e-4019-acbb-58a30a143a44"
+			robustPath="/dom[@domain>'cp3']//div[#'ri-details-modal']//span[@innertext='High']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//span[@innertext='Closed']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="44123817-a6ce-4acc-ba15-6c41f077b531"
+			name="RI_Done_Btn"
+			refimgid="5464f112-e204-4934-b384-444b66813953"
+			robustPath="/dom[@domain>'cp3']//div[#'ri-details-modal']//button[@innertext='Done']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'ri-details-modal']//button[@innertext='Done']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="button"
+			id="78c1a5c0-2c49-4f78-a5f9-dd06385eb9a0"
+			name="Survey_RIView_Btn"
+			refimgid="a53662cd-3159-46a2-8e95-eb12a35dd492"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'questionnaire-section']/div/div[2]/div/div[2]/div[2]/button[2]"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'questionnaire-section']/div/div[2]/div/div[2]/div[2]/button[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="00902278-9c73-4b48-bc9d-03fda28d0287"
+			name="RIView_PriorityHigh_Badge"
+			refimgid="7bba6b84-2934-46b1-a89b-483700d28b59"
+			robustPath="/dom[@domain>'cp3']//div[#'question-ris-modal']//span[@innertext='Priority : High']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'question-ris-modal']//span[@innertext='Priority : High']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="d5521185-9e4f-48b0-a465-743e0ac1a789"
+			name="RIView_PriorityNormal_Badge"
+			refimgid="7bba6b84-2934-46b1-a89b-483700d28b59"
+			robustPath="/dom[@domain>'cp3']//div[#'question-ris-modal']//span[@innertext='Priority : High']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'question-ris-modal']//span[@innertext='Priority : Normal']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="70f60862-3a94-446b-8d7b-ec7137b3d8c2"
+			name="RIView_StatusNew_Badge"
+			refimgid="14b16931-3403-4124-b8fc-f022d90d3855"
+			refpath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'question-ris-modal']/div/div/div[2]/div/div/span[@innertext='Status : New']"
+			robustPath="/dom[@domain~'cp3-usa-']//div[#'question-ris-modal']//span[@innertext='Status : New']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'question-ris-modal']//span[@innertext='Status : New']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="f5ba786b-515e-45ce-983e-13f0acf2602e"
+			name="RIView_StatusClosed_Badge"
+			refimgid="14b16931-3403-4124-b8fc-f022d90d3855"
+			robustPath="/dom[@domain~'cp3-usa-']//div[#'question-ris-modal']//span[@innertext='Status : New']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'question-ris-modal']//span[@innertext='Status : Closed']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="8ffe5cec-f581-41b9-ae0d-6c8317d3ac0e"
+			name="RIView_Close_Btn"
+			refimgid="13c53f2b-2517-4f74-a48c-360d9673471e"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'question-ris-modal']//button[@innertext=' Close ']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'question-ris-modal']//button[@innertext~'Close ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="button"
+			id="fed90404-4bfb-4b0c-81fd-6b0aee3832e0"
+			name="RIView_Edit_Btn"
+			refimgid="0fa94e2c-9c3c-4954-b8c1-040f1e1f09f2"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'question-ris-modal']//button[@innertext=' Edit']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'question-ris-modal']//button[@innertext=' Edit']
+			</item>
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="c2e8bccf-a1b0-482e-911f-aa9f7213bc41"
+			name="Survey_Question1_TextInput"
+			refimgid="c0f7ebe8-e76a-41ce-ae9d-8329d4accd7a"
+			robustPath="/dom[@domain>'cp3']//div[#'section-container']//iframe//body[#'tinymce']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'section-container']//iframe//body[#'tinymce']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="4502579e-a5cf-4155-a858-cbe383a6349c"
+			name="Survey_Question1_Yes"
+			refimgid="69747b5b-00c3-437d-aa85-4ec47818735a"
+			robustPath="/dom[@domain~'cp3-usa-']//div[#'section-container']//div[@innertext='            Yes ']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'section-container']//div[@innertext~'Yes ']
+			</item>
+			<item
+			addcaps="unknown,webelement,itag"
+			capname="itag"
+			id="59ab7194-b16d-432e-a6ae-fc7a86824abf"
+			name="Survey_Question1_Yes_Tick"
+			refimgid="0537c18a-74cc-4cc3-bf84-ea513aceaa24"
+			robustPath="/dom[@domain~'cp3-usa-']//div[#'section-container']//div[@innertext='            Yes ']/i"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'section-container']//div[@innertext~'Yes ']/i
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="spantag"
+			id="84246a39-7014-485e-9a7a-d0c1faeb711b"
+			name="Survey_Section_ExecutiveSummary"
+			refimgid="d3da36cd-9913-475c-bb89-835f3e4d53d7"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'question-list']//span[@innertext='Executive Summary']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'question-list']//span[@innertext~'Executive Summary']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="button"
+			id="31b0d766-dc60-45d6-b004-31e7da5b2d4a"
+			name="Survey_Next_Btn"
+			refimgid="f95da289-d297-4f11-a3c1-170857b77fb1"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//button[#'q-nav-next']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//button[#'q-nav-next']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="button"
+			id="f3849c5e-d3b8-4c28-8e10-0d9cf810dbfc"
+			name="Survey_Previous_Btn"
+			refimgid="d15cc0c4-6ea5-45c9-b3b7-73c6c42f7c10"
+			robustPath="/dom[@domain>'cp3']//a[#'q-nav-prev']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//button[#'q-nav-prev']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="67c6dc48-e472-4c95-bf5a-91b9f5ac8982"
+			name="QuestionOneAnswerText"
+			refimgid="42d09448-1502-4106-91f3-6e608e593d69"
+			robustPath="/dom[@domain>'cp3']//div[#'section-container']//iframe//body[#'tinymce']/p[@innertext='Question One Answer Text']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'section-container']//iframe//body[#'tinymce']/p[@innertext='Question One Answer Text']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="17952ccf-47b6-484d-8247-c10c20ed1a40"
+			name="QuestionAddPhoto"
+			refimgid="8a3a6b6f-5246-4c61-b60d-de514b22c90d"
+			robustPath="/dom[@domain>'cp3']//div[#'question-add-photo']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'question-add-photo']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="d86c6774-87b7-4ae5-bda7-82d05a281ed3"
+			name="AddAttachments_DropFilesHereToUpload_Text"
+			refimgid="72c348a6-9677-422f-b4f1-ca0beb987531"
+			robustPath="/dom[@domain>'cp3']//form[#'attachment-dropzone']/?/?/button[@innertext='Drop files here to upload']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//form[#'attachment-dropzone']/?/?/button[@innertext='Drop files here to upload']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="4fd1aed3-b494-42f5-acb6-fa97c02bcbbc"
+			name="Survey_Print_Btn"
+			refimgid="ce4aeaac-fb76-4979-9185-074d8e831ac0"
+			robustPath="/dom[@domain>'cp3']//div[#'page-content-wrapper']//span[@innertext='Print']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'page-content-wrapper']//span[@innertext='Print']
+			</item>
+			<item
+			addcaps="unknown,webelement,h5tag"
+			capname="h5tag"
+			id="36ef6eeb-98c4-4602-b1bc-f38f37ec0891"
+			name="Export_Modal_HeaderText"
+			refimgid="188cd6d3-005a-408b-8803-471b3a1b77d9"
+			robustPath="/dom[@domain>'cp3']//div[#'downloadReportsModal']//h5[@innertext='Export']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'downloadReportsModal']//h5[@innertext='Export']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="c14a6f2c-954f-4e99-aee9-62411a137634"
+			name="Export_Modal_DownloadPDF_Btn"
+			refimgid="91c9ffd5-587e-439e-a4de-38f3dafcc57a"
+			robustPath="/dom[@domain>'cp3']//div[#'downloadReportsModal']//a[@innertext>'                    Download']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'downloadReportsModal']//a[@innertext~'Download']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="36dbab1f-5de6-4f08-b959-de47d427e321"
+			name="Navbar_SignedInUser"
+			refimgid="05906ebb-a4ab-4584-8684-3e5b861c9564"
+			robustPath="/dom[@domain>'cp3']//div[#'navbarSupportedContent']/ul[2]/li[3]"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'navbarSupportedContent']/ul[2]/li[3]
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="79fbad80-48aa-454c-8e91-3c7b24be5cfd"
+			name="SignOut"
+			refimgid="ce63aadc-a9ea-414a-bedb-9d761e329734"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'navbarSupportedContent']//a[@innertext=' Sign Out']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'navbarSupportedContent']//a[@innertext=' Sign Out']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="5a4317f4-cf50-4902-9170-7a3ba11e86d2"
+			name="Survey_Submit_Btn"
+			refimgid="79344027-3d30-468b-a3d0-fc4d3d260823"
+			robustPath="/dom[@domain>'cp3']//div[#'page-content-wrapper']//span[@innertext='Submit']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'page-content-wrapper']//span[@innertext='Submit']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="f1606ed2-32dd-48e0-8457-7be0d2beedcf"
+			name="Yes"
+			refimgid="26400477-f012-47aa-874c-ea8dd6ddb1eb"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'confirm-modal']//button[@innertext='Yes ']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//button[@innertext='Yes ']
+			</item>
+			<item
+			addcaps="unknown,webelement,h5tag"
+			capname="h5tag"
+			id="282180d7-ce0d-45cf-8ec7-ec2f06bd5618"
+			name="Confirmation_Modal_HeaderText"
+			refimgid="1a3136eb-09e5-400f-a972-7e6f2c40e784"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'confirm-modal']//h5[@innertext=' Confirmation']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//h5[@innertext~'Confirmation']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="093753d7-d09d-41ba-a55d-941dc0ecc220"
+			name="AreYouSureYouWantToSubmit"
+			refimgid="f1ead890-c3f0-4296-bb9c-58f582dc5c47"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'confirm-modal']//p[@innertext>'Are you sure you want to']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//p[@innertext&gt;'Are you sure you want to']
+			</item>
+			<item
+			addcaps="unknown,webelement,h5tag"
+			capname="h5tag"
+			id="2ca9d6c3-d076-404d-8e1b-739d90dd57cd"
+			name="ReportSubmitted_Modal_HeaderText"
+			refimgid="bea4019f-b428-4914-905d-618660656dcd"
+			refpath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'post-submit-modal']/div/div/div[1]/h5[@innertext=' Report Submitted']"
+			robustPath="/dom[@domain~'cp3-usa-']//div[#'post-submit-modal']//h5[@innertext=' Report Submitted']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'post-submit-modal']//h5[@innertext=' Report Submitted']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="55d08da7-2a21-4f8b-bb47-d5bdff6f2714"
+			name="ReportSubmitted_Modal_ViewDetails_Btn"
+			refimgid="bd6d0f65-0049-4565-a223-019986f1ceea"
+			refpath="/dom[@domain='cp3-usa-dev.risksolved.com']//button[#'activity-submit-details-button']"
+			robustPath="/dom[@domain~'cp3-usa-']//button[#'activity-submit-details-button']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//button[#'activity-submit-details-button']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="32d4bf33-8746-4e21-a5a6-72d05c316ce9"
+			name="Activity_InternalStatus"
+			refimgid="bc389857-2157-4ed4-b043-914f553ec091"
+			robustPath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'nav-details']//span[@title='']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'nav-details']//span[@title='']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="1d377535-72b6-475d-b0b4-6686680b2f33"
+			name="Activity_Search"
+			refimgid="d760107f-6451-495b-b3c6-8b6aa7a56f39"
+			refpath="/dom[@domain='cp3-usa-dev.risksolved.com']//div[#'page-content-wrapper']/div/div[2]/div[2]/form[@action='https://cp3-usa-dev.risksolved.com/activity/manage']/div/input[@type='text']"
+			robustPath="/dom[@domain~'cp3-usa-']//div[#'page-content-wrapper']//input[@type='text']"
+			searchtimeout="30000ms">
+				/dom[@domain~'cp3-usa-']//div[#'page-content-wrapper']//input[@type='text']
+			</item>
+			<basepath>
+				/dom[@domain~'cp3-usa-']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="984269d3-b34a-4ce4-9325-cf7a1de97550"
+		isrooted="True"
+		name="Open"
+		refimgid="76b2e5d5-c23b-4e94-bd62-1e720776236f"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="fe5e03b9-251c-44ae-be05-5ae171aff60d"
+			name="Cancel"
+			refimgid="5b021b7d-c788-4a66-956b-c5daf59eb435"
+			robustPath="/form[@title='Save As']/button[@controlid='2']"
+			searchtimeout="1000ms">
+				/form[@title='Open' or @title='Save As']/button[@controlid='2']
+			</item>
+			<basepath>
+				/form[@title='Open' or @title='Save As']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPZdPJTxNxFAfwOUmCURDjgkGoIMjW
+TqFqCJZ2CiogIEQ9mYiJ0XjyD1BBr16kBSSVRYp7TDh6MCIWkDUmjJ64WVO6EZYW0LjM8Pv65tcR
+QV7yyfc3nfdemulU+L/m7RYp7LC45sotvrnyoyCMruWIZPGE7aJBb9taPruYHJYszojDAg2dWVgq
+pvwnZCe2IqfWq4/FS/sgJBXL1MCH6EzNRQjaihjPMjMLbDBrNcmbloRsZic1aY3rAlai5+wJEyOY
+tYramfOXmpx8WHxZb3h8tSx+0yoyP90MX6jCz+mPCMzGsPKDgUW9WJProEwWM5UrAmHKhCgJ5ucN
+nkp3LWYcIm01Ini+kg9e93zDsbsx7qJ7FcGFGNTpKigTRqgTJijjRqaMF7oE05OzsvlpPe7dKMPX
+kgJ8Hx5Ebcsyiu/ESHTdtd5VsNgU1PF8ThnLY8QnGPvqYOyrZSWdZzBZISIYXYPYvMSZm6NEy/h1
+YD5KgzlQRrNpOFtLCIW9NSjQXWmSmN8fhbFpCcbbi4RSO/PrJf481NFM3SFOyO+u9uX3VLO8nmpQ
+Yir0GZe7l5F/a3FdATnXHgNbeAP1Q7ruIJSRNFnI66x05nZVIreriit/0YiZyDIa2qPIvbnANdLC
+mcgKlKnjUIYPkFSoI6m0INUjHHFXSDnuU8h5eBp/0/HsEga+jPGvrC2bDH5C6+saGtwLlShDezh4
+98Vf7ayOCidhhztOaqDJelDBNNrZ1kW/0Nv9UId202AKFG8K1oZ2xV8krTKc9uTMNoec2V6OLKIl
+1+bg+aifnvj7JKZ4d1KSwR0yvEmb/w/akoxWu8vgkmBo1bkkZnWX0tB2XSINJ7q2DG8sWmQgfekt
+Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

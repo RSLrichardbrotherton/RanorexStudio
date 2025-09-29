@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="BackOffice"
+      id="153dd947-0fa9-4a05-98c5-a54718b01eb7"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="BackOffice"
+      id="153dd947-0fa9-4a05-98c5-a54718b01eb7"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

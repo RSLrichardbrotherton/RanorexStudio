@@ -1,0 +1,7 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "_AEGIS",
+    "RunConfig": "TestRun"
+  }
+]

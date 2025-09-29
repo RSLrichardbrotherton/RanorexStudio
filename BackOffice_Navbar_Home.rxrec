@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="de03e319-2c1f-4ef0-875f-43eb80c50a25"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BackOffice_Navbar_Home"
+	namespace="BackOffice">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ff0be59e-0789-4992-91d1-ea2c14b60958"
+		sx="623"
+		sy="241"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="807d55bb-c583-48f1-ac75-3d442fc93929"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="587,233,40,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						HomeMenuItem
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Home
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://backoffice-usa-dev.risksolved.com/
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain&gt;'backoffice']//a[#'HomeMenuItem']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="01e0152f-b66d-4a8a-8f41-94ec1e377985">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACWAJYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC54dvV
+ltBau37yHoPVe35dK2K5rUNJnsZ/tNjvKA5AT7yf4iprTxGNoW6hJI6vHz+Y7UAb9FZn9v6fj/WS
+D/tm1Qz+I7dVPkxSSH1YbR+ZoA1Lm4jtYHmlOFUfn7Vxome41BZpPvSSqx/76HH4dK0Y477XZ1eX
+Mdup4IGFH09T707WYI7e+sI4l2ooCgfRxQB0lcpqH/Izf9tov6V1dcpqH/Izf9tov6UAdHqETTaf
+PGn3mQ7frWL4Yuf30sDMfnAdMnPTr/SuirmtV0ya0uTd2YbZu3fJ1Q/4UAdLRWBaeI1KAXMJJ7vF
+yPy7VcGv2BH35B9YzQBp1j+Jyg05AfvGUbf1z+lE3iK1RT5Ucsh9xtH5msvbe67dhwAEXgNj5EH9
+T/nigDX8NKV0vJ6NIxH8v6Vq1HbwpbwJDGMIgwKkoAKKKKACiiigAqtcafZ3RzNbozf3sYP51Zoo
+AzToNh2SQf8AbRv8akh0ewhbcturNnOXJb+dXqKAAAAYHAqOW3hmZWliR2X7pZc4qSigAqFrO2eb
+zWgiaTIO8qM5HTmpqKACiiigCrcabZXJJlt0LH+IDB/MVX/sGw7JIP8Ato3+NaVFAFGLR9PiORbK
+x9XJb+dXVUKMKAAOwpaKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAx9fAL2obgEtn9KzzDbCETeY/lnGD9fwrQ8Qfftfq39KxDHONNjc3GY/l/d7B6+tQopyd
+zqlVnCnHlff8y/8AYov7z/mKPsUX95/zFU7zyvtMv2nzPMwPI259O2O+aJ4vNkfz8l1tgx5x83NP
+kj2I+sVf5i59ii/vP+Yp0dhE8qqWfBIHUf4VShQpKjxljJLblmJJOW4xUujQuskFyGUbp/KdRuyT
+jdk5PX/69HJHsH1ir/Ma/h//AI8X/wCuh/kK06zPD/8Ax4v/ANdD/IVp0Q+FBiP4sgoooqjAKKKK
+AImuoUYqz4I68GioEWVppvKkCfNzkZooAuUUUUAFFFFABRRRQBl61HI8ls0cTyBCSQgz6VW8yX/o
+H3P5n/4mt2ip5Xe6ZuqseVRlG9jC8yX/AKB9z+Z/+Jo8yX/oH3P5n/4mt2iiz7h7Sn/J+LOfluvJ
+UNNZzRqTgF3wM/8AfNTWUK3sXzQ5i+072VjnjyuD78kVp3kDzxoYnCyxvvTI4JwRg+2CaZpzQPbm
+S3j8rexMiYwVfoQR26U0mupE5Ra0jYz4bF7EQvG0kQAhDIH+VnZtr5H0xW1VXUHAjhj5LPNHgDrw
+wJ/QGrVMzCiiigAooooAKKKKAK17IQEjWTyy55bOMAU1LoixVx8z52de9TNbxvN5jjccYwwyBTfs
+kW2RcHa5zgdj7UhkVxJdJbSFgikEfMp6g+lBmmR5OFLpGGPJx/OpRaR+W6Fnbf1YnJp0dusbltzM
+Su07jnNAEMlyzpMyAbEUHPOST9KYJZjOwyuwRbsZPp/OrC2sawNCN21up70NaoXDbnBC7eD1FAFZ
+r1kjjA2AlNxLZP4U+W8cJG6BVRlyWcEjPpxUptE2oFeRCo27lbBIpZLcSADzJVwMfK/X60ASodyA
+5ByOxyKWkRFjQIowAMClpiCq01kklx58cssEhGGMZA3+mQQc1ZooArQ2Mcc3nu8k0wyFeQ5Kg9gB
+wPyqzRRQAUUUUAFFFFABRRRQAzyv+mj/AJ0eV/00f86fRQAzyv8Apo/50eV/00f86fRQAzyv+mj/
+AJ0eV/00f86fRQAzyv8Apo/50eV/00f86fRQAzyv+mj/AJ0eV/00f86fRQAzyv8Apo/50eV/00f8
+6fRQAzyv+mj/AJ0eV/00f86fRQAzyv8Apo/50eV/00f86fRQAzyv+mj/AJ0eV/00f86fRQAzyv8A
+po/50U+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="edc087b4-8239-41e6-83f1-0c6cef4ace39"
+		waitaction="NotExists"
+		waittimeout="60000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cac4c031-4424-462c-a4bb-5b56bc87801a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="divtag"
+				rect="0,87,0,0"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain&gt;'backoffice']//div[#'DivPageBusyText']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="23c18cd1-a5f3-481c-8767-fe2dfb772075"
+	name="_BackOfficeRepository"
+	relativepath="_BackOfficeRepository.rxrep">
+		<codegen
+		classname="_BackOfficeRepository"
+		namespace="BackOffice">
+		</codegen>
+		<rootfolder
+		id="7ff8f337-aa43-48f9-b5ed-2640ff5cc94e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BackOffice_Navbar_Home.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
