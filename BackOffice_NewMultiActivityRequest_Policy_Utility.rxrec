@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5d962aff-2255-4e9d-9409-83b86edd559f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BackOffice_NewMultiActivityRequest_Policy_Utility"
+	namespace="BackOffice">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="96d101e7-2445-43b7-9c49-512305c3b7d9"
+		sx="878"
+		sy="292"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="016cdfc3-e21f-4ab8-94c9-bac9d8b67873"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="selecttag"
+				rect="818,283,120,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						required-field valid
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SelectedClassPolicy
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						required-field valid
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						b9725bd6-83c6-47a5-a696-6ddf28e5638f_88b7c3a9-85bb-4673-bcd5-ad800070ff1d_Liability
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SelectedClassPolicy
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-invalid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain&gt;'backoffice']//select[#'SelectedClassPolicy']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{Down}{Down}{Down}{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="0bcc283a-46cb-48b7-b9e5-2867fc6c9c89">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="016cdfc3-e21f-4ab8-94c9-bac9d8b67873"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="1"
+				prefcap="selecttag"
+				rect="818,355,120,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						required-field valid input-validation-valid
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SelectedClassPolicy
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						input-validation-valid required-field valid
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SelectedClassPolicy
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-invalid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain&gt;'backoffice']//select[#'SelectedClassPolicy']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="551c5b10-803d-473f-b92a-6e16c3025dba">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAC5ARoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKbl/wC6v/fX/wBajL/3V/76/wDrUAOopuX/ALq/99f/AFqMv/dX/vr/AOtQ
+A6im5f8Aur/31/8AWoy/91f++v8A61ADqKbl/wC6v/fX/wBajL/3V/76/wDrUAOopuX/ALq/99f/
+AFqMv/dX/vr/AOtQA6im5f8Aur/31/8AWoy/91f++v8A61ADqKbl/wC6v/fX/wBajL/3V/76/wDr
+UAOopuX/ALq/99f/AFqMv/dX/vr/AOtQA6im5f8Aur/31/8AWoy/91f++v8A61ADqKbl/wC6v/fX
+/wBajL/3V/76/wDrUAOopuX/ALq/99f/AFqMv/dX/vr/AOtQA6im5f8Aur/31/8AWoy/91f++v8A
+61ADqKbl/wC6v/fX/wBajL/3V/76/wDrUAOopuX/ALq/99f/AFqMv/dX/vr/AOtQA6im5f8Aur/3
+1/8AWoy/91f++v8A61ADqKbl/wC6v/fX/wBajL/3V/76/wDrUAOopuX/ALq/99f/AFqMv/dX/vr/
+AOtQA6im5f8Aur/31/8AWoy/91f++v8A61ADqKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKbvT+8v50b0/vL+dADq
+KbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADq
+KbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADq
+KbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADq
+KbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADqKbvT+8v50b0/vL+dADq
+KbvT+8v50b0/vL+dADqKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBk8qwQtK4JVRk460yO5VpGR0aNgu
+7D45HrwTSX0by2cscYyzDAFRT2ReGQh2klZQAXx0BzjgUATNdRBFdWDqzhMoQeTTvPjEZd3VFDFc
+sw6/nVOS3mlmMojKAyRnaSM4HU8cUqQTRsj+WX2ySEoCM4Y8H0//AF0AXPOiwx8xMLyTuHFNmZWi
+cKwJXAIB6VRli3XcMSqib1BljU52hTkf4VccHbNmIJyPmBHz9Oazq/w5ejHHdFLewRnaREUE8sOg
+B9c02OZZc+Vcwvt67ecfrTLr/kHT4/2v5mho5nfzZVjTYjABGLE5/AelZxoU+W9iuZ3HR3CSvtju
+oHY9l5P86c8ojdUe4hVm6KRgn9aqRtK0dmkqIifKVcMTyBwOgxmp4Nnl3Pnbc728zd6ds+2MVToU
++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
+0UAf/9k=
+			</helperscreenshot>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="23c18cd1-a5f3-481c-8767-fe2dfb772075"
+	name="_BackOfficeRepository"
+	relativepath="_BackOfficeRepository.rxrep">
+		<codegen
+		classname="_BackOfficeRepository"
+		namespace="BackOffice">
+		</codegen>
+		<rootfolder
+		id="7ff8f337-aa43-48f9-b5ed-2640ff5cc94e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BackOffice_NewMultiActivityRequest_Policy_Utility.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4b7ab275-c37c-4bb8-a965-1d0a7bb8c601"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BackOffice_NewMultiActivityRequest_Submit_Btn"
+	namespace="BackOffice">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="148ed0e1-521d-48df-b952-93b2f3e509d3"
+		sx="1427"
+		sy="961"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5f57dadf-4ba2-4fe5-9efa-410d4034f258"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="4"
+				prefcap="inputtag"
+				rect="1341,952,96,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						submit
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						submitRequest
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						submit
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Submit
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Submit
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain&gt;'backoffice']//input[#'submitRequest']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="bd7b580f-9570-47d4-82b5-efd84da1e9a5">
+				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
+5dkf/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<invokeactionrecorditem
+		action="WaitForDocumentLoaded"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5209b7d9-38d9-4d07-92f6-2c6c07452e8a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="caa3c3ad-7fc6-453d-b4c8-aab07fd99cb5"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain&gt;'backoffice']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="92ae370f-4058-491a-b73f-77a218b75d0b">
+			</arguments>
+		</invokeactionrecorditem>
+	</recorditems>
+	<repository
+	id="23c18cd1-a5f3-481c-8767-fe2dfb772075"
+	name="_BackOfficeRepository"
+	relativepath="_BackOfficeRepository.rxrep">
+		<codegen
+		classname="_BackOfficeRepository"
+		namespace="BackOffice">
+		</codegen>
+		<rootfolder
+		id="7ff8f337-aa43-48f9-b5ed-2640ff5cc94e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BackOffice_NewMultiActivityRequest_Submit_Btn.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
